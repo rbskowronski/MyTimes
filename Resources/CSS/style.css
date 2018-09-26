@@ -27,15 +27,20 @@
 
 }
 
+.navigation {
+  padding-right: 40px;
+  width: 275px;
+
+}
+
 .navigation span a {
   display: inline-block;
   /* border: 1px solid black; */
-  width: 75px;
   color: black;
+  padding: 10px;
+
 }
-.navigation {
-  padding-right: 40px;
-}
+
 
 .content {
   display: flex;
