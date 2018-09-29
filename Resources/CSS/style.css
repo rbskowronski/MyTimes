@@ -1,4 +1,10 @@
 
+* {
+  margin: 0;
+  padding: 0:
+}
+
+
 
 .header {
   display: flex;
@@ -9,8 +15,10 @@
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
+  position: fixed;
+  z-index: 5;
+  background-color: white;
 }
-
 
 .logo {
   display: inline-block;
@@ -24,13 +32,11 @@
   padding-left: 10px;
   flex-grow: 1;
   color: MediumAquamarine;
-
 }
 
 .navigation {
   padding-right: 40px;
   width: 275px;
-
 }
 
 .navigation span a {
@@ -38,20 +44,172 @@
   /* border: 1px solid black; */
   color: black;
   padding: 10px;
-
 }
 
 
-.content {
+.content{
   display: flex;
-  border: 1px solid black;
-  height: 100px;
-  width: 100%;
+  /* border: 1px solid black; */
+  width: 1300px;
+  margin: 0 auto 78px auto;
+  padding-top: 120px;
 }
 
-.footer {
+.left {
   display: flex;
+  /* border: 1px solid black; */
+  width: 630px;
+  height: 100%;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-bottom: 60px;
+}
+
+.mother_image{
+  background-image: url("../images/mother.png");
+  height: 300px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+}
+
+.mother {
+}
+
+.monument{
+  /* border: 1px solid black; */
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+.orca_burger{
+  display: flex;
+}
+
+.orca{
+  padding-right: 20px;
+}
+
+.orca p {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+.earth_image{
+  display: flex;
+  background-image: url("../images/earth.png");
+  height: 300px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  justify-content: center;
+  width: 300px;
+}
+
+.earth{
+}
+
+.burger{
+  padding-left: 20px;
+}
+
+.burger p{
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+.earth_research{
+  display: flex;
+  justify-content: space-between;
+}
+
+.research_image{
+  background-image: url("../images/research.png");
+  height: 300px;
   border: 1px solid black;
-  height: 100px;
-  width: 100%;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  width: 300px;
+}
+
+.research {
+  text-align: center;
+
+}
+
+.half {
+  display: flex;
+  justify-content: space-around;
+  width: 630px;
+  heigh: 400px;
+  margin-left: 20px;
+}
+
+.center {
+  display: flex;
+  /* border: 1px solid black; */
+  width: 300px;
+  flex-direction: column;
+}
+
+.fbi{
+  /* border: 1px solid black; */
+}
+
+.cats_image{
+  display: flex;
+  background-image: url("../images/Cat.png");
+  height: 300px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+.cats {
+/* border: 1px solid black; */
+text-align: center;}
+
+.brooklyn p {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+
+.right {
+  display: flex;
+  /* border: 1px solid black; */
+  width: 240px;
+  flex-direction: column;
+}
+
+
+.cookie {
+
+}
+
+.news h3{
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  /* border: 1px solid black; */
+}
+
+.news span{
+  display: flex;
+  padding: 5px 0 5px 10px;
+  border-bottom: 1px solid black;
+  color: DimGray;
+  font-family: Verdana;
+  font-size: 12px;
+  color: black;
+  background-color: WhiteSmoke;
 }
